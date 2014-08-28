@@ -80,7 +80,7 @@ The response from the service can be retrieved as string:
 response.getContent()
 ```
 
-which the client can then easily turned into a `JsonObject` by:
+which the client can then easily turn into a `JsonObject` by:
 
 ```Java
 new JSONObject(response.getContent())
